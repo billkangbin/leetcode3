@@ -2,10 +2,6 @@ package com.billkang.concurrent;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * @author kangbin <kangbin@kuaishou.com>
- * Created on 2020-06-21
- */
 public class AtomicTest {
 
     private Integer val = 0;

@@ -1,9 +1,5 @@
 package com.billkang.concurrent;
 
-/**
- * @author kangbin <kangbin@kuaishou.com>
- * Created on 2020-06-21
- */
 public class DeadLockTest {
 
     static Object resource1 = new Object();

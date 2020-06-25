@@ -5,8 +5,6 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @author kangbin <kangbin@kuaishou.com>
- * Created on 2020-06-22
  * <p>
  * 单词搜索 II
  * <p>
@@ -50,7 +48,7 @@ public class FindWords {
     }
 
     private boolean[][] visited; //判断是否参加过
-    List<String> res = new ArrayList<>();
+    List<String> res = new ArrayList();
 
     public List<String> findWords(char[][] board, String[] words) {
         Trie root=new Trie();

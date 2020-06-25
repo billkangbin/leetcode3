@@ -1,9 +1,6 @@
 package com.billkang.concurrent;
 
-/**
- * @author kangbin <kangbin@kuaishou.com>
- * Created on 2020-06-21
- */
+
 public class DataRaceTest {
     private static int a = 0;
 
